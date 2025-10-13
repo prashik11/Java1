@@ -50,26 +50,29 @@ public class Day1 {
 		Scanner sc = new Scanner(System.in);
 		
 		//For Integer
-		System.out.print("Enter a Number = ");
-		int num1 = sc.nextInt();
-		
-		System.out.print("Enter another Number = ");
-		int num2 = sc.nextInt();
-		
-		int sum = num1 + num2;
-		System.out.println("Sum of two numbers = " + sum);
+//		System.out.print("Enter a Number = ");
+//		int num1 = sc.nextInt();
+//		
+//		System.out.print("Enter another Number = ");
+//		int num2 = sc.nextInt();
+//		
+//		int sum = num1 + num2;
+//		System.out.println("Sum of two numbers = " + sum);
 		
 		//For String ---- Single name use next()
-//		System.out.print("Enter your name = "); 
-//		String name = sc.next();
-//		System.out.print("Hello " + name);
+		System.out.println("Enter your name = "); 
+		String name = sc.next();
+		System.out.println("Hello " + name);
+		
+		
+		sc.nextLine();  //------ Consume leftover newline
 		
 		
 		//For String ----- Full name, use nextLine()
 		
 		System.out.println("Enter Full name = ");
-		String FullName = sc.nextLine();
-		System.out.println("Hello " + FullName);
+		String fullName = sc.nextLine();
+		System.out.println("Hello " + fullName);
 		
 		
 		
