@@ -4,23 +4,40 @@ public class Day1 {
 
 	public static void main(String[] args) {
 		
-		int a = 5;
-		int b = 10;
 		
-		int c = a+b;
-		System.out.println(c);
 		
-		int d = 5;
-		int e = 10;
+		//Type Casting = convert data type into another datatype
+		//Implicit Casting = Convert lower datatype into higher datatype
+		//Explicit casting = Convert higher datatype into smaller one.
 		
-		int f = a+b;
-		System.out.println(f);
+		//Implicit
+		int a = 10;
+		double b = a;
+		
+		System.out.println(b);
+		
+		//Explicit
+		double c = 10.5;
+		int d =(int) c;
+		System.out.println(d);
+		
+		//We cannot convert char datatype into boolean
+//		char e = '10';
+//		boolean f = e;
+		
+		//We cannot convert boolean datatype into char
+//		boolean g = false;
+//		char h = g;
+		
+		
+		
+		
+		
+		
+	
+		
+		
 
-		int g = 5;
-		int h = 10;
-		
-		int i = a+b;
-		System.out.println(i);
 
 }
 }
