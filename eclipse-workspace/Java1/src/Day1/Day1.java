@@ -9,6 +9,12 @@ public class Day1 {
 		
 		int c = a+b;
 		System.out.println(c);
+		
+		int d = 5;
+		int e = 10;
+		
+		int f = a+b;
+		System.out.println(f);
 	}
 
 }
