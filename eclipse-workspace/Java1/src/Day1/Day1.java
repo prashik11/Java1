@@ -15,6 +15,12 @@ public class Day1 {
 		
 		int f = a+b;
 		System.out.println(f);
-	}
 
+		int g = 5;
+		int h = 10;
+		
+		int i = a+b;
+		System.out.println(i);
+
+}
 }
