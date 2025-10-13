@@ -1,4 +1,5 @@
 package Day1;
+import java.util.Scanner;
 
 public class Day1 {
 
@@ -14,19 +15,16 @@ public class Day1 {
 		//Int to double
 		int a = 10;
 		double b = a;
-		
 		System.out.println(b);
 		
 		//Char to float
 		char a1 = '2';
 		float a2 = a1;
-		
 		System.out.println(a2);
 		
 		//int to float
 		int b1 = 10;
 		float b2 = b1;
-		
 		System.out.println(b2);
 		
 		//Explicit
@@ -42,6 +40,23 @@ public class Day1 {
 //		boolean g = false;
 //		char h = g;
 		
+		
+		//Get input from user
+		//Using Scanner -------  Class
+		//Scanner class helps users to get the input values from users.
+		//import java.util.Scanner; ----- Package(complete bundle)
+		
+		//Scanner sc = new Scanner(System.in) ------  Object
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter a Number = ");
+		int num1 = sc.nextInt();
+		
+		System.out.print("Enter another Number = ");
+		int num2 = sc.nextInt();
+		
+		int sum = num1 + num2;
+		System.out.println("Sum of two numbers = " + sum);
 		
 		
 		
