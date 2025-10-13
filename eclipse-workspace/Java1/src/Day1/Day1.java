@@ -49,6 +49,7 @@ public class Day1 {
 		//Scanner sc = new Scanner(System.in) ------  Object
 		Scanner sc = new Scanner(System.in);
 		
+		//For Integer
 		System.out.print("Enter a Number = ");
 		int num1 = sc.nextInt();
 		
@@ -57,6 +58,18 @@ public class Day1 {
 		
 		int sum = num1 + num2;
 		System.out.println("Sum of two numbers = " + sum);
+		
+		//For String ---- Single name use next()
+//		System.out.print("Enter your name = "); 
+//		String name = sc.next();
+//		System.out.print("Hello " + name);
+		
+		
+		//For String ----- Full name, use nextLine()
+		
+		System.out.println("Enter Full name = ");
+		String FullName = sc.nextLine();
+		System.out.println("Hello " + FullName);
 		
 		
 		
