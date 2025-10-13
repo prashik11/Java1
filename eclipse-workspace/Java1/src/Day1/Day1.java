@@ -11,10 +11,23 @@ public class Day1 {
 		//Explicit casting = Convert higher datatype into smaller one.
 		
 		//Implicit
+		//Int to double
 		int a = 10;
 		double b = a;
 		
 		System.out.println(b);
+		
+		//Char to float
+		char a1 = '2';
+		float a2 = a1;
+		
+		System.out.println(a2);
+		
+		//int to float
+		int b1 = 10;
+		float b2 = b1;
+		
+		System.out.println(b2);
 		
 		//Explicit
 		double c = 10.5;
