@@ -38,8 +38,19 @@ public class Day2 {
 		
 		if(op=='+') {
 			int sum = num1+num2;
-			System.out.println(num1 + "+" + num2 +"="+ sum);
-			
+			System.out.println(num1 + "+" + num2 +"="+ sum);	
+		}
+		else if(op=='-'){
+			int sub = num1 - num2;
+			System.out.println(num1 + "-" + num2 + "=" + sub);
+		}
+		else if(op=='*') {
+			int multiply = num1 * num2;
+			System.out.println(num1 + "*" + num2 + "=" + multiply);
+		}
+		else if(op=='/') {
+			int div = num1 / num2;
+			System.out.println(num1 + "/" + num2 + "=" + div );
 		}
 		
 	}
