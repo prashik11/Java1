@@ -28,7 +28,7 @@ public class Day2 {
 		
 		//Calculator Using Nested IF 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter a number = ");
+/*		System.out.println("Enter a number = ");
 		int num1 = sc.nextInt();
 		System.out.println("Enter a second number");
 		int num2 = sc.nextInt();
@@ -51,8 +51,60 @@ public class Day2 {
 		else if(op=='/') {
 			int div = num1 / num2;
 			System.out.println(num1 + "/" + num2 + "=" + div );
-		}
+	}*/	
 		
-	}
-
+		//Check weather given number is positive or negative.
+		//Call Scanner object
+	/*	System.out.println("Enter a number = ");
+		int a=sc.nextInt();
+		if( a>0) {
+			System.out.println("Given number is positive");
+		}
+		else if(a<0) {
+			System.out.println("Given number is negative");
+		}
+		else {
+			System.out.println("Given number is zero");
+		}    */
+		
+		//Check weather given number is even or odd.
+	/*	System.out.println("Enter a number");
+		int b = sc.nextInt();
+		if(b%2==0) {
+			System.out.println("Given number is even");
+		}
+		else {
+			System.out.println("Given number is odd");
+		}    */
+		
+		
+		//Takes marks and shows the grade
+		System.out.println("Enter marks");
+		//Call sc object 
+		System.out.println("Enter English Marks = ");
+		int Eng = sc.nextInt();
+		System.out.println("Enter Computer Marks = ");
+		int Com = sc.nextInt();
+		int Total = Eng+Com;
+		if(Total>=90 && Total<=90 ) {
+			System.out.println("Your Grade is A");
+		}
+		else if(Total>=80 && Total<=90) {
+			System.out.println("Your Grade is B");
+		}
+		else if(Total>=70 && Total<=80) {
+			System.out.println("Your Grade is C");
+		}
+		else if(Total>=60 && Total<=70) {
+			System.out.println("Your Grade is D");
+		}
+		else {
+			System.out.println("Your are fail");
+		}
 }
+}	
+
+	   
+
+
+
