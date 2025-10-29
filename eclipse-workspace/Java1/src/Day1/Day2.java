@@ -79,30 +79,57 @@ public class Day2 {
 		
 		
 		//Takes marks and shows the grade
-		System.out.println("Enter marks");
-		//Call sc object 
-		System.out.println("Enter English Marks = ");
-		int Eng = sc.nextInt();
-		System.out.println("Enter Computer Marks = ");
-		int Com = sc.nextInt();
-		int Total = Eng+Com;
-		if(Total>=90 && Total<=90 ) {
-			System.out.println("Your Grade is A");
+//		System.out.println("Enter marks");
+//		//Call sc object 
+//		System.out.println("Enter English Marks = ");
+//		int Eng = sc.nextInt();
+//		System.out.println("Enter Computer Marks = ");
+//		int Com = sc.nextInt();
+//		int Total = Eng+Com;
+//		if(Total>=90 && Total>=90 ) {
+//			System.out.println("Your Grade is A");
+//		}
+//		else if(Total>=80 && Total<=90) {
+//			System.out.println("Your Grade is B");
+//		}
+//		else if(Total>=70 && Total<=80) {
+//			System.out.println("Your Grade is C");
+//		}
+//		else if(Total>=60 && Total<=70) {
+//			System.out.println("Your Grade is D");
+//		}
+//		else {
+//			System.out.println("Your are fail");
+//		}
+		
+		
+		//Switch Case
+		//When have many conditions that time we are use Switch Case statement because its readiable
+		
+		//Check the enter characters is vowels are not?
+		System.out.println("Enter the alphabet");
+		//Call scanner object
+		
+		char value = sc.next().charAt(0);
+	    
+		switch(value) {
+		case 'a' : System.out.println("you enter A vowel");
+		break;
+		case 'e' : System.out.println("you enter e vowel");
+		break;
+		case 'i' : System.out.println("you enter i vowel");
+		break;
+		case 'o' : System.out.println("you enter o vowel");
+		break;
+		case 'u' : System.out.println("you enter u vowel");
+		break;
+	
+		default :
+		System.out.println("This is not vowels");
 		}
-		else if(Total>=80 && Total<=90) {
-			System.out.println("Your Grade is B");
+		
 		}
-		else if(Total>=70 && Total<=80) {
-			System.out.println("Your Grade is C");
-		}
-		else if(Total>=60 && Total<=70) {
-			System.out.println("Your Grade is D");
-		}
-		else {
-			System.out.println("Your are fail");
-		}
-}
-}	
+  }	
 
 	   
 
