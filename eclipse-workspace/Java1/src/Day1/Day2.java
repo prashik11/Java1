@@ -107,28 +107,58 @@ public class Day2 {
 		//When have many conditions that time we are use Switch Case statement because its readiable
 		
 		//Check the enter characters is vowels are not?
-		System.out.println("Enter the alphabet");
+		//System.out.println("Enter the alphabet");
 		//Call scanner object
 		
-		char value = sc.next().charAt(0);
-	    
-		switch(value) {
-		case 'a' : System.out.println("you enter A vowel");
-		break;
-		case 'e' : System.out.println("you enter e vowel");
-		break;
-		case 'i' : System.out.println("you enter i vowel");
-		break;
-		case 'o' : System.out.println("you enter o vowel");
-		break;
-		case 'u' : System.out.println("you enter u vowel");
-		break;
-	
-		default :
-		System.out.println("This is not vowels");
+//		char value = sc.next().charAt(0);
+//	    
+//		switch(value) {
+//		case 'a' : System.out.println("you enter A vowel");
+//		break;
+//		case 'e' : System.out.println("you enter e vowel");
+//		break;
+//		case 'i' : System.out.println("you enter i vowel");
+//		break;
+//		case 'o' : System.out.println("you enter o vowel");
+//		break;
+//		case 'u' : System.out.println("you enter u vowel");
+//		break;
+//	
+//		default :
+//		System.out.println("This is not vowels");
+//		}
+		
+		System.out.println("Enter marks");
+		//call scanner class 
+		System.out.println("Enter English marks");
+		int eng = sc.nextInt();
+		System.out.println("Enter Hindi marks");
+		int hindi = sc.nextInt();
+		System.out.println("Enter Marathi marks");
+		int mar = sc.nextInt();
+		
+		int total = eng+hindi+mar;
+		
+		switch(total/10) {
+		case 10:
+	    case 9:
+	        System.out.println("Your grade is A");
+	        break;
+	    case 8:
+	        System.out.println("Your grade is B");
+	        break;
+	    case 7:
+	        System.out.println("Your grade is C");
+	        break;
+	    default:
+	        System.out.println("You are fail");
 		}
 		
-		}
+	}
+	
+	
+	
+	
   }	
 
 	   
