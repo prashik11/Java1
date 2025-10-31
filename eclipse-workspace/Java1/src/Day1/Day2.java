@@ -128,30 +128,57 @@ public class Day2 {
 //		System.out.println("This is not vowels");
 //		}
 		
-		System.out.println("Enter marks");
-		//call scanner class 
-		System.out.println("Enter English marks");
-		int eng = sc.nextInt();
-		System.out.println("Enter Hindi marks");
-		int hindi = sc.nextInt();
-		System.out.println("Enter Marathi marks");
-		int mar = sc.nextInt();
+//		System.out.println("Enter marks");
+//		//call scanner class 
+//		System.out.println("Enter English marks");
+//		int eng = sc.nextInt();
+//		System.out.println("Enter Hindi marks");
+//		int hindi = sc.nextInt();
+//		System.out.println("Enter Marathi marks");
+//		int mar = sc.nextInt();
+//		
+//		int total = eng+hindi+mar;
+//		
+//		switch(total/10) {
+//		case 10:
+//	    case 9:
+//	        System.out.println("Your grade is A");
+//	        break;
+//	    case 8:
+//	        System.out.println("Your grade is B");
+//	        break;
+//	    case 7:
+//	        System.out.println("Your grade is C");
+//	        break;  
+//	    default:
+//	        System.out.println("You are fail");
+//		}
 		
-		int total = eng+hindi+mar;
 		
-		switch(total/10) {
-		case 10:
-	    case 9:
-	        System.out.println("Your grade is A");
-	        break;
-	    case 8:
-	        System.out.println("Your grade is B");
-	        break;
-	    case 7:
-	        System.out.println("Your grade is C");
-	        break;
-	    default:
-	        System.out.println("You are fail");
+		//Parking fee for vehicle types.
+		System.out.println("Enter vehicle type");
+		//call scanner class.
+		String vehicle = sc.nextLine();
+		int fees;
+		switch (vehicle) {
+		case "Car" : 
+			fees = 50;
+			System.out.println("Car parking fees is " + fees );
+			break;
+		case "Truck" : 
+			fees = 100;
+			System.out.println("Truck parking fees is " + fees);
+			break;
+		case "Bike" :
+			fees = 20;
+			System.out.println("Bike parking fees is " + fees);
+			break;
+		case "Auto" :
+			fees = 30;
+			System.out.println("Auto parking fees is " + fees);
+			break;
+		default :
+			System.out.println("Unknown parking type");
 		}
 		
 	}
