@@ -159,27 +159,25 @@ public class Day2 {
 		System.out.println("Enter vehicle type");
 		//call scanner class.
 		String vehicle = sc.nextLine();
-		int fees;
+		int fees = 0;
 		switch (vehicle) {
 		case "Car" : 
 			fees = 50;
-			System.out.println("Car parking fees is " + fees );
 			break;
 		case "Truck" : 
 			fees = 100;
-			System.out.println("Truck parking fees is " + fees);
 			break;
 		case "Bike" :
 			fees = 20;
-			System.out.println("Bike parking fees is " + fees);
 			break;
 		case "Auto" :
 			fees = 30;
-			System.out.println("Auto parking fees is " + fees);
 			break;
 		default :
 			System.out.println("Unknown parking type");
 		}
+		
+		System.out.println("parking fees for " + vehicle +" "+ fees );
 		
 	}
 	
